@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Perfil Profissional</title>
+    <script>
+        function limparCampos() {
+            document.querySelector('input[type="text"]').value = '';
+            document.querySelector('input[type="email"]').value = '';
+        }
+    </script>
+</head>
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <h1 align="center">Linkedin - PERFIL PROFISSIONAL</h1> 
+                <p align="center">Olá, sou a Julia Fricks e seja bem-vindo(a) ao meu espaço profissional!!!!</p>
+            </td>
+        </tr>
+    </table>
+    
+    <table width="80%" align="center" border="0">
+        <tr>
+            <td> 
+                <fieldset> 
+                    <legend><b>Acesso ao meu Currículo:</b></legend>
+                    
+                    <table width="100%">
+                        <tr>
+                            <td width="30%">seu nome:</td>
+                            <td><input type="text" id="nome" size="30" placeholder="Digite seu nome"></td>
+                        </tr>
+                        <tr>
+                            <td>seu e-mail:</td>
+                            <td><input type="email" id="email" size="30" placeholder="exemplo@email.com"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <br>
+                                <button type="button" onclick="limparCampos()">Limpar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                
+               
+                <div align="center">
+                    <p>Ou acesse diretamente:</p>
+                    <p align="center"><a href="meuperfil.html">ver diretamente</a></p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
